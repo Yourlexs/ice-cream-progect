@@ -1,0 +1,200 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
+section.comments {
+  background-color: $primary-background-color;
+
+  @media screen and (max-width: 767px) {
+    //padding-top: 161px;
+    padding-bottom: 170px;
+  }
+
+  @media screen and (min-width: 768px) {
+    //padding-top: 253px;
+    padding-bottom: 197px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    //padding-top: 518px;
+    padding-bottom: 234px;
+  }
+}
+
+.gallery-image {
+  width: 100%;
+
+  @media screen and (max-width: 767px) {
+    margin-top: -48px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-top: -106px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-top: -171px;
+  }
+}
+
+.container.comments {
+  background-color: $primary-background-color;
+  text-align: center;
+
+  @media screen and (max-width: 767px) {
+    margin-top: 80px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-top: 121px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 123px;
+  }
+}
+
+.person-image {
+  width: 85px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 20px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 15px;
+  }
+}
+
+.review {
+  position: relative;
+
+  background-color: #fafafa;
+
+  @media screen and (max-width: 767px) {
+    margin-right: 5px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+
+    padding: 43px 66px 26px 57px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-right: 59px;
+    margin-bottom: 24px;
+    margin-left: 59px;
+
+    padding: 47px 80px 34px 80px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 61px;
+    margin-bottom: 15px;
+    margin-left: 63px;
+
+    padding: 46px 89px 40px 87px;
+  }
+}
+
+.review-text {
+  position: relative;
+  z-index: 1;
+
+  text-align: center;
+
+  @media screen and (max-width: 767px) {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 2.6;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 2.5;
+    letter-spacing: 0.04em;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+    line-height: 1.9;
+  }
+
+  &:after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #e1e1e1;
+  }
+}
+
+.quotes {
+  position: absolute;
+  top: 28px;
+  left: 60px;
+
+  width: 54px;
+  height: 40px;
+}
+
+.dots {
+  width: 32px;
+  height: 4px;
+}
+
+.name {
+  text-align: center;
+
+  @media screen and (max-width: 767px) {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.9;
+    margin-top: 18px;
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+    margin-top: 14px;
+    margin-bottom: 35px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 20px;
+  }
+}
+
+.radiobuttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.radiobuttons-item {
+  &:not(last-child) {
+    margin-right: 18px;
+  }
+}
+
+.radiobutton-home {
+  width: 13px;
+  height: 12px;
+}
+
+.radiobutton-ellipse {
+  width: 13px;
+  height: 12px;
+}

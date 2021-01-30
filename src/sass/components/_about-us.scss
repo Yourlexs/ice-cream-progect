@@ -1,0 +1,107 @@
+/*Секция*/
+.about-us{
+padding-top: 125px;
+padding-bottom: 145px;
+background-color:$secondary-background-color ;
+background-image: url(../images/Mobile/how-made-bg.png);
+
+    @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi), 
+    screen and (min-resolution: 2dppx) {
+     background-image:url(../images/Mobile/how-made-bg@2x.png);
+    }
+
+    @media screen and (min-device-pixel-ratio: 3),
+            screen and (min-resolution: 288dpi), 
+            screen and (min-resolution: 3dppx) {
+                background-image:url(../images/Mobile/how-made-bg@3x.png);
+            }
+background-repeat: no-repeat;
+background-position: 50% 48%;
+background-size: contain;
+
+        @media screen and(min-width:768px) {
+            background-image: none;
+            
+        }
+}
+
+
+
+/*Картинка секции*/
+.about-us-img{
+    margin-top: 26px;
+}
+
+/*Текст*/
+.about-us-description{
+margin: 46px 30px 0px 30px ;
+color: $black-text-color; 
+font-family: $primary-font-family;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 1.6;
+
+}
+
+.text{
+margin-top: 33px;
+margin-bottom: 0;
+color: $primary-text-color; 
+font-family: $primary-font-family;
+}
+
+.indent{
+margin-top: 15px;
+margin-bottom: 0;
+}
+
+/*Кнопка дополнения к основному классу*/
+.about-us-white{
+ margin: 47px 0 39px 30px;
+ padding: 0 38px 0 37px;
+ 
+}
+.about-us-icon-arrow{
+margin-left: 13px;
+}
+
+/*Текст с цифрами*/
+.about-us-list{
+    @media screen and(min-width:768px) {
+       display: flex; 
+    }
+}
+.about-us-list li{
+margin-right: 80px;
+
+}
+.about-us-list li+li{
+margin-top: 38px;
+    
+}
+.figures{
+
+font-family: $accent-font-family;
+color:$accent-color;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 41px;
+letter-spacing: 0.04em;
+text-transform: uppercase;  
+}
+.paragraph{
+margin-bottom: 0;
+color: $black-text-color; 
+font-family: $primary-font-family;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 1.7;
+}
+
+.about-us-list-icon{
+margin-bottom: 16px;
+}
