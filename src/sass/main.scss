@@ -1,0 +1,18 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+@import './general/modern-normalize';
+
+@import './utilits/variables';
+
+@import './general/common';
+
+@import './components/header';
+@import './components/hero';
+@import './components/products';
+@import './components/about-us';
+@import './components/comments';
+@import './components/address';
+@import './components/footer';

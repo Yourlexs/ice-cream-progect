@@ -1,1 +1,3 @@
-# ice-cream-progect
+# ice-cream-project
+Этот проект создаёт команда Seven ice&
+
