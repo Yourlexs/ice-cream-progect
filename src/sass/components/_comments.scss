@@ -80,9 +80,10 @@ section.comments {
   background-color: #fafafa;
 
   @media screen and (max-width: 767px) {
-    margin-right: 5px;
+    max-width: 280px;
+    margin-right: auto;
     margin-bottom: 30px;
-    margin-left: 5px;
+    margin-left: auto;
 
     padding: 43px 66px 26px 57px;
   }
@@ -119,7 +120,7 @@ section.comments {
   @media screen and (min-width: 768px) {
     font-weight: 500;
     font-size: 14px;
-    line-height: 2.5;
+    line-height: 2.2;
     letter-spacing: 0.04em;
   }
 
@@ -134,8 +135,14 @@ section.comments {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 1px;
-    background: #e1e1e1;
+    height: 100%;
+    background: repeating-linear-gradient(
+      180deg,
+      transparent 0px,
+      transparent 29px,
+      #707070 30px,
+      transparent 30px
+    );
   }
 }
 
