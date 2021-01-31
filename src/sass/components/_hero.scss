@@ -11,13 +11,14 @@
 
   &-container {
     position: relative;
+    padding-top: 137px;
 
-    height: 502px;
+    height: 446px;
   }
 
   &-content {
     position: relative;
-    margin-top: 137px;
+
     z-index: 1;
   }
 
@@ -79,7 +80,7 @@
     width: 344px;
     height: 344px;
 
-    top: 83px;
+    top: 27px;
     right: -57px;
     fill: $pink-accent-color;
   }
