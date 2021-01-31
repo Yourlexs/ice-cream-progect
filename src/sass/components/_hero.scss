@@ -80,10 +80,8 @@
     width: 344px;
     height: 344px;
     right: -57px;
+    bottom: 75px;
     fill: $pink-accent-color;
-    @media screen and (max-width: 767px) {
-      top: 27px;
-    }
   }
 
   &-background-icecream {
@@ -234,12 +232,13 @@
 
 @media screen and (min-width: 1200px) {
   .hero-container {
-    height: 665px;
+    height: 578px;
+    padding-top: 84px;
   }
 
-  .hero-content {
-    margin-top: 100px;
-  }
+  // .hero-content {
+  //   margin-top: 100px;
+  // }
 
   .hero-tittle {
     max-width: 277px;
@@ -317,8 +316,8 @@
   }
 
   .hero-elipse {
-    right: 180px;
-    top: 52px;
+    right: 167px;
+    bottom: 75px;
     width: 538px;
     height: 538px;
   }

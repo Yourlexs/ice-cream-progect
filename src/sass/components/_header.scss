@@ -1,11 +1,11 @@
 .header .container {
   @media screen and (min-width: 768px) {
     padding-top: 37px;
+    height: 87px;
   }
 
   @media screen and (min-width: 1200px) {
     position: relative;
-    padding-bottom: 24px;
     display: flex;
     justify-content: flex-end;
   }
