@@ -1,199 +1,199 @@
 .header .container {
-    @media screen and (min-width: 768px) {
-        padding-top: 38px;
-    }
+  @media screen and (min-width: 768px) {
+    padding-top: 37px;
+    height: 87px;
+  }
 
-    @media screen and (min-width: 1200px) {
-        position: relative;
-        padding-bottom: 24px;
-        display: flex;
-        justify-content: flex-end;
-    }
+  @media screen and (min-width: 1200px) {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 
 .header-container {
-    @media screen and (max-width:1199px) {
-        position: relative;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    @media screen and (max-width:767px) {
-        padding-top: 6px;
-    }
+  @media screen and (max-width: 1199px) {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  @media screen and (max-width: 767px) {
+    padding-top: 6px;
+  }
 }
 
 .logo {
-    @media screen and (min-width: 1200px){
-        position: absolute;
-        top: 34px;
-        left: -55px;
-    }
+  @media screen and (min-width: 1200px) {
+    position: absolute;
+    top: 34px;
+    left: -55px;
+  }
 }
 
 .header-button {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    @media screen and (min-width: 1200px){
-        display: none;
-    }
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
 }
 
 .menu {
-    @media screen and (max-width: 1199px) {
-        position: fixed;
-        top: 0;
-        right: 0;
-        padding-top: 60px;
-        padding-right: 20px;
-        padding-left: 21px;
-        opacity: 1;
-        z-index: 999;
-        width: 250px;
-        height: 502px;
-        background-color: #E17992;
-        box-shadow: (-8px 0px 20px rgba(0, 0, 0, 0.25));
-        transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
-        padding-right: 36px;
-        padding-left: 24px;
-        width: 254px;
-        height: 1020px;
-    }
-    
-    @media screen and (min-width: 1200px) {
-        display: flex;
-        flex-direction: row-reverse;
-    }
+  @media screen and (max-width: 1199px) {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-top: 60px;
+    padding-right: 20px;
+    padding-left: 21px;
+    opacity: 1;
+    z-index: 999;
+    width: 250px;
+    height: 502px;
+    background-color: #e17992;
+    box-shadow: (-8px 0px 20px rgba(0, 0, 0, 0.25));
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding-right: 36px;
+    padding-left: 24px;
+    width: 254px;
+    height: 1020px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
 
 .menu.is-hidden {
-    @media screen and (max-width: 1199px) {
-        opacity: 0;
-        pointer-events: none;
-    }
+  @media screen and (max-width: 1199px) {
+    opacity: 0;
+    pointer-events: none;
+  }
 }
 
 .menu-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 30px;
-    background-color: transparent;
-    border: transparent;
-    z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  background-color: transparent;
+  border: transparent;
+  z-index: 1;
 
-    @media screen and (min-width: 768px) {
-        margin-right: 30px;
-        margin-left: 290px;
-    }
+  @media screen and (min-width: 768px) {
+    margin-right: 30px;
+    margin-left: 290px;
+  }
 
-    @media screen and (min-width: 1200px) {
-        display: none;
-    }
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
 }
 
 .button.duble {
+  display: none;
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+    width: 160px;
+    z-index: 1;
+  }
+
+  @media screen and (min-width: 1200px) {
     display: none;
-    width: 100%;
-
-    @media screen and (min-width: 768px) {
-        display: block;
-        width: 160px;
-        z-index: 1;
-    }
-
-    @media screen and (min-width: 1200px) {
-        display: none;
-    }
+  }
 }
 
 .menu .button {
-    width: 100%;
-    z-index: 1;
+  width: 100%;
+  z-index: 1;
 
-    @media screen and (max-width: 1199px) {
-        margin-bottom: 19px;
-    }
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 19px;
+  }
 
-    @media screen and (min-width: 768px) {
-        width: 186px;
-    }
+  @media screen and (min-width: 768px) {
+    width: 186px;
+  }
 
-    @media screen and (min-width: 1200px) {
-        width: 160px;
-    }
+  @media screen and (min-width: 1200px) {
+    width: 160px;
+  }
 }
 
 .menu-button.close {
-    position: absolute;
-    top: 16px;
-    right: 20px;
+  position: absolute;
+  top: 16px;
+  right: 20px;
 
-    @media screen and (min-width: 768px) {
-        right: 10px;
-    }
+  @media screen and (min-width: 768px) {
+    right: 10px;
+  }
 }
 
 .menu-icon {
-    width: 20px;
-    height: 14px;
+  width: 20px;
+  height: 14px;
 }
 
 .menu-icon-arrow {
-    margin-left: 20px;
-    width: 6px;
-    height: 8px;
+  margin-left: 20px;
+  width: 6px;
+  height: 8px;
 }
 
 .site-nav {
-    @media screen and (min-width: 1200px) {
-        margin-right: 110px;
-        z-index: 1;
-    }
+  @media screen and (min-width: 1200px) {
+    margin-right: 110px;
+    z-index: 1;
+  }
 }
 
 .site-nav-list {
-    @media screen and (min-width: 1200px) {
-        display: flex;
-    }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
 }
 
 .site-nav-item {
-    color: $white-text-color;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.29;
+  color: $white-text-color;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.29;
 
-    @media screen and (max-width: 1199px) {
-        border-top: 1px solid #E18298;
-        border-bottom: 1px solid #E18298;
-    }
+  @media screen and (max-width: 1199px) {
+    border-top: 1px solid #e18298;
+    border-bottom: 1px solid #e18298;
+  }
 
-    @media screen and (min-width: 1200px) {
-        font-size: 16px;
-        line-height: 1.31;
-    }
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+    line-height: 1.31;
+  }
 }
 
-.site-nav-item:not(:last-child){
-    @media screen and (min-width: 1200px) {
-        margin-right: 35px;
-    }
+.site-nav-item:not(:last-child) {
+  @media screen and (min-width: 1200px) {
+    margin-right: 35px;
+  }
 }
 
 .site-nav-link,
 .site-nav-link:visited {
-    color: $white-text-color;
+  color: $white-text-color;
 }
 
 .site-nav-link:hover,
 .site-nav-link:focus,
-.site-nav-link.current{
-    color: $accent-color;
+.site-nav-link.current {
+  color: $accent-color;
 }

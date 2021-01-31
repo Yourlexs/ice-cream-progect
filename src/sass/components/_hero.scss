@@ -11,13 +11,14 @@
 
   &-container {
     position: relative;
+    padding-top: 137px;
 
-    height: 502px;
+    height: 446px;
   }
 
   &-content {
     position: relative;
-    margin-top: 137px;
+
     z-index: 1;
   }
 
@@ -78,9 +79,8 @@
     position: absolute;
     width: 344px;
     height: 344px;
-
-    top: 83px;
     right: -57px;
+    bottom: 75px;
     fill: $pink-accent-color;
   }
 
@@ -105,14 +105,13 @@
 
 @media screen and (min-width: 768px) {
   .hero-container {
-    padding-top: 37px;
-    height: 400px;
+    padding-top: 15px;
+    height: 312px;
   }
 
   .hero-content {
     display: flex;
     justify-content: space-between;
-    margin-top: 15px;
   }
 
   .hero-tittle {
@@ -200,7 +199,7 @@
 
   .hero-elipse {
     right: 137px;
-    top: 31px;
+    bottom: 46px;
     width: 324px;
     height: 322px;
   }
@@ -233,12 +232,13 @@
 
 @media screen and (min-width: 1200px) {
   .hero-container {
-    height: 665px;
+    height: 578px;
+    padding-top: 84px;
   }
 
-  .hero-content {
-    margin-top: 100px;
-  }
+  // .hero-content {
+  //   margin-top: 100px;
+  // }
 
   .hero-tittle {
     max-width: 277px;
@@ -316,8 +316,8 @@
   }
 
   .hero-elipse {
-    right: 180px;
-    top: 52px;
+    right: 167px;
+    bottom: 75px;
     width: 538px;
     height: 538px;
   }
