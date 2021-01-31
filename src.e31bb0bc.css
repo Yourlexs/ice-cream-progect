@@ -771,7 +771,7 @@ img {
 
   .hero-elipse {
     right: 137px;
-    top: 37px;
+    top: 31px;
     width: 324px;
     height: 322px;
   }
@@ -1609,8 +1609,10 @@ a {
 
   .conteiner.box {
     display: flex;
-    padding-right: 20px;
-    padding-left: 20px;
+    max-width: 768px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
   }
 
   .container-title {
@@ -1729,9 +1731,10 @@ a {
 
   .conteiner.box {
     display: flex;
-    flex-wrap: wrap;
-    padding-right: 50px;
-    padding-left: 50px;
+    max-width: 1080px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
     justify-content: center;
   }
 
