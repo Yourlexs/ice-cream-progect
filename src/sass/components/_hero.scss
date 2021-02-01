@@ -273,8 +273,10 @@
   }
 
   .hero-link-text {
+    margin-bottom: 18px;
     min-width: 200px;
     font-size: 14px;
+    line-height: 1.4;
   }
 
   .hero-link-button img {
@@ -327,6 +329,7 @@
   }
 
   .hero-background-milk {
+    bottom: 46px;
     left: -40px;
   }
 }
