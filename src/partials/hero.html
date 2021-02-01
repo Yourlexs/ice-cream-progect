@@ -195,7 +195,13 @@
                 <img class="hero-background-milk-img" src="./images/Tablet/slider3.png" alt="milk" width="124px" height="126px">
             </picture>
 
+            <!-- вебп изображение для лайтхауса. Без него почему-то ругается -->
             <picture class="hero-background-girl">
+                <source srcset="./images/Desktop/slider2.webp" 
+                    type="image/webp" 
+                    media="(max-width: 767px)" 
+                />
+
                 <source srcset="./images/Desktop/slider2.webp 1x, 
                     ./images/Desktop/slider2@2x.webp 2x, 
                     ./images/Desktop/slider2@3x.webp 3x" 
