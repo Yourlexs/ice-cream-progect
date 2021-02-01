@@ -164,8 +164,6 @@
 
 .site-nav-item {
   color: $white-text-color;
-  padding-top: 12px;
-  padding-bottom: 12px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.29;
@@ -185,6 +183,12 @@
   @media screen and (min-width: 1200px) {
     margin-right: 35px;
   }
+}
+
+.site-nav-link {
+  display: inline-block;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .site-nav-link,
