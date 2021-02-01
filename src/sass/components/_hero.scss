@@ -8,12 +8,13 @@
 .hero {
   background-color: $hero-background-color;
   overflow: hidden;
+  // padding-top: 37px;
 
   &-container {
     position: relative;
     padding-top: 137px;
 
-    height: 446px;
+    min-height: 446px;
   }
 
   &-content {
@@ -104,9 +105,12 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 37px;
+  }
   .hero-container {
     padding-top: 15px;
-    height: 312px;
+    min-height: 312px;
   }
 
   .hero-content {
@@ -232,13 +236,9 @@
 
 @media screen and (min-width: 1200px) {
   .hero-container {
-    height: 578px;
+    min-height: 578px;
     padding-top: 84px;
   }
-
-  // .hero-content {
-  //   margin-top: 100px;
-  // }
 
   .hero-tittle {
     max-width: 277px;
@@ -267,14 +267,13 @@
   }
 
   .hero-link-box {
-    min-width: 200px;
+    width: 200px;
     margin-left: 180px;
     margin-top: 112px;
   }
 
   .hero-link-text {
     margin-bottom: 18px;
-    min-width: 200px;
     font-size: 14px;
     line-height: 1.4;
   }
@@ -325,7 +324,7 @@
   }
 
   .hero-background-icecream {
-    right: 380px;
+    right: 350px;
   }
 
   .hero-background-milk {
