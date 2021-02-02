@@ -1,0 +1,481 @@
+h3,
+p {
+  margin: 0;
+}
+
+a {
+  color: $primary-text-color;
+}
+
+@media screen and (max-width: 767px) {
+  .address {
+    background: $secondary-background-color;
+    padding-bottom: 35px;
+  }
+
+  .container-title {
+    transform: translateY(-30%);
+    width: 220px;
+    font-size: 12px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 43px 20px;
+    font-weight: 500;
+    background: $white-text-color;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    border-radius: 24px;
+  }
+
+  .address-title {
+    font-size: 12px;
+    width: 80px;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    background: $beige-bgr-color;
+    color: $white-text-color;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .address-sity {
+    color: $black-text-color;
+    font-family: $primary-font-family;
+    margin-top: 25px;
+    margin-bottom: 22px;
+  }
+
+  .address-description {
+    position: relative;
+    color: $primary-text-color;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+
+  .address-description::before {
+    display: block;
+    content: '';
+
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+
+    width: 100%;
+    height: 1px;
+
+    background-color: #e1e1e1;
+  }
+
+  .address-week:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .address-week:first-child {
+    margin-top: 25px;
+  }
+
+  .address-time {
+    color: $pink-accent-color;
+    margin-top: 5px;
+  }
+
+  .address-contacts {
+    line-height: 1.5;
+  }
+
+  .address-list {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .address-list::after {
+    display: block;
+    content: '';
+
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+
+    width: 100%;
+    height: 1px;
+
+    background-color: #e1e1e1;
+  }
+
+  .address-e-mail {
+    margin-top: 5px;
+  }
+
+  .address-title-food {
+    background: $pistachio-bgr-color;
+    color: $white-text-color;
+    font-size: 12px;
+    width: 130px;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .address-buttons {
+    transform: translateY(-90%);
+  }
+
+  button.address-button {
+    width: 161px;
+    font-family: $primary-font-family;
+    margin: auto;
+    margin-top: 34px;
+    margin-bottom: 10px;
+    background-color: $accent-color;
+    color: $white-text-color;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+
+  .address-icon {
+    margin-left: 8px;
+  }
+
+  button.address-franchise {
+    display: block;
+    font-family: $primary-font-family;
+    height: 44px;
+    margin-bottom: 113px;
+    width: 161px;
+    border: 0;
+    margin: auto;
+    padding: auto;
+    border-radius: 22px;
+    background-color: $white-text-color;
+    color: $accent-color;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .address {
+    background: $secondary-background-color;
+  }
+
+  .conteiner.box {
+    display: flex;
+    max-width: 768px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+  }
+
+  .container-title {
+    transform: translateY(-20%);
+    width: 220px;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 50px 31px;
+    justify-content: space-between;
+    font-weight: 500;
+    background: $white-text-color;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    border-radius: 24px;
+  }
+
+  .address-title {
+    font-size: 16px;
+    width: 73px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: $beige-bgr-color;
+    color: $white-text-color;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .address-sity {
+    color: $black-text-color;
+    font-family: $primary-font-family;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 22px;
+  }
+
+  .address-description {
+    position: relative;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 60px;
+    color: $primary-text-color;
+  }
+
+  .address-description::before {
+    display: block;
+    content: '';
+
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+
+    width: 100%;
+    height: 1px;
+
+    background-color: #e1e1e1;
+  }
+
+  .address-week:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .address-time {
+    margin-top: 10px;
+    color: $pink-accent-color;
+  }
+
+  .address-contacts {
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 1.9;
+  }
+
+  .address-list {
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .address-list::after {
+    display: block;
+    content: '';
+
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+
+    width: 100%;
+    height: 1px;
+
+    background-color: #e1e1e1;
+  }
+
+  .address-e-mail {
+    margin-top: 10px;
+  }
+
+  .address-title-food {
+    background: $pistachio-bgr-color;
+    color: $white-text-color;
+    font-size: 16px;
+    width: 138px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .address-buttons {
+    transform: translateY(-10%);
+    display: flex;
+    margin: auto;
+    width: 380px;
+    padding-bottom: 140px;
+  }
+
+  button.address-button {
+    width: 191px;
+    font-family: $primary-font-family;
+    margin: auto;
+    margin-right: 15px;
+    background-color: $accent-color;
+    color: $white-text-color;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+
+  .address-icon {
+    margin-left: 8px;
+  }
+
+  button.address-franchise {
+    display: block;
+    font-family: $primary-font-family;
+    height: 44px;
+    margin-bottom: 113px;
+    width: 174px;
+    border: 0;
+    margin: auto;
+    padding: auto;
+    border-radius: 22px;
+    background-color: $white-text-color;
+    color: $accent-color;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .address {
+    background: $secondary-background-color;
+  }
+
+  .conteiner.box {
+    display: flex;
+    max-width: 1080px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .container-title {
+    transform: translateY(-25%);
+    width: 330px;
+    height: 100%;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 51px 43px;
+    justify-content: space-between;
+    font-weight: 500;
+    background: $white-text-color;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    border-radius: 24px;
+  }
+
+  .address-title {
+    font-size: 16px;
+    width: 73px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: $beige-bgr-color;
+    color: $white-text-color;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .address-sity {
+    color: $black-text-color;
+    font-family: $primary-font-family;
+    font-size: 16px;
+    margin-top: 32px;
+    margin-bottom: 10px;
+  }
+
+  .address-description {
+    position: relative;
+    color: $primary-text-color;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 64px;
+  }
+
+  .address-description::before {
+    display: block;
+    content: '';
+
+    position: absolute;
+    bottom: -32px;
+    left: 0;
+
+    width: 100%;
+    height: 1px;
+
+    background-color: #e1e1e1;
+  }
+
+  .address-week {
+    font-size: 16px;
+  }
+
+  .address-time {
+    color: $pink-accent-color;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  .address-week:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  .address-contacts {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+
+  .address-e-mail {
+    margin-top: 10px;
+  }
+
+  .address-list {
+    position: relative;
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+
+  .address-list::after {
+    display: block;
+    content: '';
+
+    position: absolute;
+    bottom: -32px;
+    left: 0;
+
+    width: 100%;
+    height: 1px;
+
+    background-color: #e1e1e1;
+  }
+
+  .address-title-food {
+    background: $pistachio-bgr-color;
+    color: $white-text-color;
+    font-size: 16px;
+    width: 138px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  button.address-button {
+    width: 198px;
+    font-family: $primary-font-family;
+    margin: auto;
+    margin-right: 15px;
+    background-color: $accent-color;
+    color: $white-text-color;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+
+  .address-icon {
+    margin-left: 10px;
+  }
+
+  .address-buttons {
+    transform: translateY(-10%);
+    display: flex;
+    width: 393px;
+    margin: auto;
+    padding-bottom: 160px;
+  }
+
+  button.address-franchise {
+    display: block;
+    font-family: $primary-font-family;
+    height: 44px;
+    margin-bottom: 113px;
+    width: 180px;
+    border: 0;
+    margin: auto;
+    padding: auto;
+    border-radius: 22px;
+    background-color: $white-text-color;
+    color: $accent-color;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+}

@@ -1,0 +1,217 @@
+.products-section{
+    background-color: $white-text-color;
+}
+
+.about-products{
+    padding-top: 120px;
+    padding-bottom: 100px;
+
+    @media screen and (min-width: 768px){
+        padding-bottom: 110px;
+    }
+
+    @media screen and (min-width: 1200px){
+        padding-top: 125px;
+        padding-bottom: 120px;
+    }
+}
+
+.our-products{
+    margin-top: 145px;
+
+    text-align: center;
+
+    @media screen and (min-width: 768px){
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 150px;
+    }
+
+    @media screen and (min-width: 1200px){
+        margin-top: 260px;
+    }
+}
+
+.product-photo{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+
+    @media screen and (min-width: 768px){
+        width: 220px;
+        height: 226px;
+    }
+
+    @media screen and (min-width: 1200px){
+        transform: translate(-50%, -65%);
+        width: 335px;
+        height: 335px;
+    }
+}
+
+.product-item{
+    margin-right: auto;
+    margin-left: auto;
+
+    width: 280px;
+    height: 502px;
+
+    @media screen and (min-width: 768px) {
+        width: calc((100% - 2 * 20px) / 3);
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: calc((100% - 2 * 25px) / 3);
+    }
+
+    &:not(:last-child){
+        @media screen and (max-width: 767px) {
+            margin-bottom: 130px;
+        }
+
+        @media screen and (min-width: 768px) {
+            margin-right: 20px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            margin-right: 25px;
+        }
+    }
+}
+
+.our-products .list-item{
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 24px;
+
+    display: none;
+
+    &.active{
+        display: block;
+    }
+
+    & span{
+        display: inline-block;
+
+        margin-top: 30px;
+    
+        font-family: $accent-font-family;
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 1.15;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: $white-text-color;
+    }
+}
+
+.product-name{
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-family: $accent-font-family;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.15;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $white-text-color;
+}
+
+.product-details,
+.flavors{
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-family: $primary-font-family;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: $white-text-color;
+}
+
+.flavors li{
+    margin-top: 10px
+}
+
+.product-button-right,
+.product-button-left,
+.product-button-next,
+.product-button-back,
+.product-button-forward,
+.product-button-backward {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+
+    width: 40px;
+    height: 40px;
+
+    cursor: pointer;
+
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus{
+        border: 3px dotted #D41342;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+    }
+
+    @media screen and (min-width: 768px) {
+        bottom: 40px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        bottom: 50px;
+    }
+}
+
+.ice-cream{
+    position: relative;
+    background-color: $hero-background-color;
+}
+
+.ice-cream-flavor{
+    position: relative;
+    background-color: #E17992;
+}
+
+.ice-coffee{
+    position: relative;
+    background-color: $beige-bgr-color;
+}
+.ice-coffee-flavor{
+    position: relative;
+    background-color: #e9bb79;
+}
+
+.milkshakes{
+    position: relative;
+    background-color: $pistachio-bgr-color;
+}
+.milkshakes-flavor{
+    position: relative;
+    background-color: #9AE194;
+}
+
+.product-card{
+    padding: 160px 40px 110px 40px;
+
+    @media screen and (min-width: 768px) {
+        padding: 150px 10px 120px 10px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding: 165px 45px 150px 45px;
+    }
+}
