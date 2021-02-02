@@ -40,36 +40,70 @@ a {
   .address-sity {
     color: $black-text-color;
     font-family: $primary-font-family;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 22px;
   }
 
   .address-description {
+    position: relative;
     color: $primary-text-color;
-    border-bottom: 1px solid #e1e1e1;
     margin-top: 0;
-    padding-bottom: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
   }
 
-  .address-list {
-    margin-bottom: 15px;
+  .address-description::before {
+    display: block;
+    content: '';
+
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+
+    width: 100%;
+    height: 1px;
+
+    background-color: #e1e1e1;
+  }
+
+  .address-week:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .address-week:first-child {
+    margin-top: 25px;
   }
 
   .address-time {
     color: $pink-accent-color;
     margin-top: 5px;
-    padding-bottom: 10px;
   }
 
   .address-contacts {
-    padding-top: 25px;
     line-height: 1.5;
-    border-top: 1px solid #e1e1e1;
   }
 
-  .address-tel {
-    padding-bottom: 5px;
+  .address-list {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .address-list::after {
+    display: block;
+    content: '';
+
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+
+    width: 100%;
+    height: 1px;
+
+    background-color: #e1e1e1;
+  }
+
+  .address-e-mail {
+    margin-top: 5px;
   }
 
   .address-title-food {
@@ -162,34 +196,70 @@ a {
   .address-sity {
     color: $black-text-color;
     font-family: $primary-font-family;
+    font-size: 14px;
+    margin-top: 30px;
     margin-bottom: 22px;
   }
 
   .address-description {
+    position: relative;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 60px;
     color: $primary-text-color;
-    border-bottom: 1px solid #e1e1e1;
-    padding-bottom: 33px;
+  }
+
+  .address-description::before {
+    display: block;
+    content: '';
+
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+
+    width: 100%;
+    height: 1px;
+
+    background-color: #e1e1e1;
+  }
+
+  .address-week:not(:last-child) {
     margin-bottom: 30px;
   }
 
-  .address-list {
-    margin-bottom: 10px;
-  }
-
   .address-time {
-    color: $pink-accent-color;
     margin-top: 10px;
-    margin-bottom: 25px;
+    color: $pink-accent-color;
   }
 
   .address-contacts {
-    font-size: 16px;
-    padding-top: 30px;
-    border-top: 1px solid #e1e1e1;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 1.9;
   }
 
-  .address-tel {
-    padding-bottom: 10px;
+  .address-list {
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .address-list::after {
+    display: block;
+    content: '';
+
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+
+    width: 100%;
+    height: 1px;
+
+    background-color: #e1e1e1;
+  }
+
+  .address-e-mail {
+    margin-top: 10px;
   }
 
   .address-title-food {
@@ -293,15 +363,25 @@ a {
   }
 
   .address-description {
+    position: relative;
     color: $primary-text-color;
-    border-bottom: 1px solid #e1e1e1;
     font-size: 16px;
-    padding-bottom: 32px;
-    margin-bottom: 32px;
+    margin-top: 0;
+    margin-bottom: 64px;
   }
 
-  .address-list {
-    margin-bottom: 10px;
+  .address-description::before {
+    display: block;
+    content: '';
+
+    position: absolute;
+    bottom: -32px;
+    left: 0;
+
+    width: 100%;
+    height: 1px;
+
+    background-color: #e1e1e1;
   }
 
   .address-week {
@@ -312,17 +392,39 @@ a {
     color: $pink-accent-color;
     font-size: 16px;
     margin-top: 5px;
-    padding-bottom: 15px;
+  }
+
+  .address-week:not(:last-child) {
+    margin-bottom: 15px;
   }
 
   .address-contacts {
     font-size: 16px;
-    padding-top: 32px;
-    border-top: 1px solid #e1e1e1;
+    line-height: 1.8;
   }
 
-  .address-tel {
-    padding-bottom: 10px;
+  .address-e-mail {
+    margin-top: 10px;
+  }
+
+  .address-list {
+    position: relative;
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+
+  .address-list::after {
+    display: block;
+    content: '';
+
+    position: absolute;
+    bottom: -32px;
+    left: 0;
+
+    width: 100%;
+    height: 1px;
+
+    background-color: #e1e1e1;
   }
 
   .address-title-food {
